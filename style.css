@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Gemini_Generated_Image_uiw7scuiw7scuiw7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid grey;
+    box-shadow:0 0 10px rgb(76, 0, 255);
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 38px;
+    color: rgb(4, 78, 161);
+}
+.input-login {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-login input{
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    border: 2px solid violet;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
