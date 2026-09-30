@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.alata-regular {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -16,19 +27,22 @@ body {
 
 .container {
     width: 420px;
-    background-color: transparent;
+    background-color:transparent;
     border: 2px solid grey;
     box-shadow:0 0 10px rgb(76, 0, 255);
     border-radius: 10px;
     padding: 30px 40px;
+    opacity: 90%;
 
 }
 
 .container h1 {
     text-align: center;
     font-size: 38px;
-    color:rgb(76, 0, 255);
-    font-family:'Courier New', Courier, monospace;
+    color:rgb(114, 17, 113);
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 .input-login {
@@ -51,6 +65,7 @@ body {
 .remember {
     display: flex;
     justify-content: space-between;
+    margin: -15px 0 15px;
 }
 .remember label input{
     accent-color: white;
@@ -62,20 +77,21 @@ body {
 }
 .remember a:hover {
     color: rgba(212, 0, 255, 0.449);
+    text-decoration: underline;
 }
 .container button{
-    position: relative;
-    justify-content: center;
-    background-color: transparent;
-    padding: 10px 40px 10px 40px;
-    border-radius: 50px;
-    border: 1px solid magenta;
     align-items: center;
-    left: 34%;
+    cursor: pointer;
+    width: 100%;
+    background: transparent ;
+    border: 1px solid magenta;
+    height: 40px;
+    border-radius: 30px;
 }
 .register {
     display: flex;
     justify-content:space-evenly;
+    margin: 20px 0px 0px 0px;
 }
 .register a{
     text-decoration: none;
@@ -83,4 +99,16 @@ body {
 }
 .register a:hover{
     color:rgba(212, 0, 255, 0.449);
+    text-decoration: underline;
+}
+
+.container button:hover{
+    background-color: magenta;
+    cursor: pointer;
+}
+.container button{
+    font-size: 20px;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
